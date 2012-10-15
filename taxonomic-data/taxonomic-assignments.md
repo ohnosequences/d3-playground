@@ -54,9 +54,23 @@ There are some particular choices of $c$ and $p$ here worth mentioning:
 1. $p$ the root node. Then we're just looking at the ratio of reads assigned to a descendant of $c$ with respect to all _assigned_ reads
 2. $c$ a leaf node. In this case, what we get is the ratio of reads assigned to this node with respect to all assigned reads
 
+## using d3 for this
+
+Almost all of the representations we want for this will use hierarchical layouts. There's an _abstract_ Hierarchy Layout in D3, see [D3 API - Hierarchy Layout](https://github.com/mbostock/d3/wiki/Hierarchy-Layout), and a lot of the data wrangling and coding can be done at this level. There'sa pretty big caveat though
+
+#### leaf-based values!!
+
+As currently implemented, the Hierarchy Layout does **not** allow for values at non-leaf nodes. The value of each node is just the sum? of its descendant leaves. See for example
+
+- [D3 pull request #574 - d3.layout.hierarchy: Allow internal nodes to have value](https://github.com/mbostock/d3/pull/574)
+- [stackoverflow :: d3.js - Treemap wehere parent's value is greater than sum of its children](http://stackoverflow.com/questions/11253740/d3-js-treemap-where-parents-value-is-greater-than-sum-of-its-children)
+- working example! -> [Recursive Treemap With Parent Weighted Nodes Using d3.js](http://devforrest.com/examples/treemap/treemap.php)
+
+All of this could be needed for other hierarchical layouts.
+
 ### data
 
-Almost all of the representations we want for this will use hierarchical layouts. There's an _abstract_ Hierarchy Layout in D3, see [D3 API - Hierarchy Layout](https://github.com/mbostock/d3/wiki/Hierarchy-Layout), and a lot of the data wrangling and coding can be done at this level. For this, we need a JSON representation of our data, along the lines of
+Anyway, we need a JSON representation of our data, along the lines of
 
 ``` json
 {
@@ -86,17 +100,52 @@ Almost all of the representations we want for this will use hierarchical layouts
 }
 ```
 
-Note that each node could have as many attrs as we want, like descendant count, frequencies, etc.
+Note that each node could have as many attrs as we want, like descendant count, frequencies, etc. We can provide a solution to the leaf-biased hierarchy layout problem by adding a "representant" leaf for each node, which would carry all attributes needed by the corresponding non-leaf node.
 
-#### leaf-based values!!
+For example, taking as a basis the previous snippet
 
-As currently implemented, the Hierarchy Layout does **not** allow for values at non-leaf nodes. The value of each node is just the sum? of its descendant leaves. See for example
-
-- [D3 pull request #574 - d3.layout.hierarchy: Allow internal nodes to have value](https://github.com/mbostock/d3/pull/574)
-- [stackoverflow :: d3.js - Treemap wehere parent's value is greater than sum of its children](http://stackoverflow.com/questions/11253740/d3-js-treemap-where-parents-value-is-greater-than-sum-of-its-children)
-- working example! -> [Recursive Treemap With Parent Weighted Nodes Using d3.js](http://devforrest.com/examples/treemap/treemap.php)
-
-All of this could be needed for other hierarchical layouts.
+``` json
+{
+ "name": "Bacteria",
+ "children": [
+  {
+    "name": "Bacteria",
+    "type": "container",
+    "count": 112312
+  },
+  {
+   "name": "Cyanobacteria",
+   "children": [
+    {
+      "name": "Cyanobacteria",
+      "type": "container",
+      "count": 43219
+    },
+    {
+     "name": "Chroococcales",
+     "children": [
+      {"name": "Acaryochloris", "count": 3938},
+      {"name": "Aphanocapsa", "count": 3812},
+      {"name": "Aphanotece", "count": 743}
+     ]
+    },
+    {
+     "name": "Gloeobacteria",
+     "children": [
+      {
+        "name": "Gloeobacteria",
+        "type": "container",
+        "count": 72935
+      },
+      {"name": "Gloeobacterales", "count": 3534},
+      {"name": "enviromental samples", "count": 5731}
+     ]
+    }
+   ]
+  }
+ ]
+}
+```
 
 ### visualizations
 
