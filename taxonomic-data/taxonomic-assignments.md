@@ -149,13 +149,33 @@ For example, taking as a basis the previous snippet
 
 ### visualizations
 
+Need to think more about this. By now, this is just a list of relevant layouts from D3, together wit some relevant links.
+
 #### treemaps
 
-Need to think more about this. 
+- [Zoomable Treemaps](http://bost.ocks.org/mike/treemap/) this is really interesting for this. At each stage the layout only shows one root node, its children and grand-children. Clicking on any of the children zooms in and sets this node as the current root.
+- [Recursive Treemap with Parent Weighted Nodes using d3.js](http://devforrest.com/examples/treemap/treemap.php) this is a hack to allow for weights in non-leaf nodes in the treemap layout.
+- [Sticky Treemaps question at StackOverflow](http://stackoverflow.com/questions/10520280/does-the-d3-treemap-layout-get-cached-when-a-root-node-is-passed-to-it) a nice explanation of what `sticky` really means.
 
 #### sunbursts
 
+These are an angular variant of treemaps. 
 
+- [Coffee flavour wheel](http://www.jasondavies.com/coffee-wheel/) same as for zoomable treemaps.
+- [Sunburst](http://mbostock.github.com/d3/ex/sunburst.html) example from the d3 gallery, with `sticky(true)` based animations.
+
+#### icicles and the like
+
+- [D3 - partition](http://mbostock.github.com/d3/talk/20111018/partition.html)
+- [Zoomable icicle](http://bl.ocks.org/1005873)
+
+#### trees
+
+collapsible, interactive, etc etc
+
+- [The power rank](http://thepowerrank.com/visual/NCAA_Tournament_Predictions) tree layout with interactive behaviour, looks like a nice way to explore relative frequencies (which in essence are just conditional probabilities).
+- [D3 - tree](http://mbostock.github.com/d3/talk/20111018/tree.html)
+- [Building a tree with D3](http://blog.pixelingene.com/2011/07/building-a-tree-diagram-in-d3-js/)
 
 
 
