@@ -1,0 +1,101 @@
+Uniref100 Seed sequence	Plasmid Protein ID (Similar_to)	Organism of the seed sequence	Protein names	start_position	end_position	Degree	Length
+P09748	P09748	Escherichia coli	Shufflon protein B'	21	1145	3	375
+Q6JB05	Q6JB05	Escherichia coli	PilU (Prepilin peptidase)	1148	1801	33	218
+Q6JB04	Q6JB04	Escherichia coli	IncI1 conjugal transfer transglycosylase protein PilT (PilT) (Putative transglycosylase PilT)	1789	2346	37	186
+D9Z518	D9Z518	Escherichia coli	PilS	2359	2970	14	204
+Q6JB02	Q6JB02	Escherichia coli	IncI1 conjugal transfer protein PilR (Integral membrane protein) (PilR)	2990	4072	44	361
+Q6JB01	Q6JB01	Escherichia coli	IncI1 conjugal transfer protein PilQ (Nucleotide-binding protein) (PilQ) (PilQ type IV pilus ATPase)	4088	5638	43	517
+Q6JB00	Q6JB00	Escherichia coli	IncI1 conjugal transfer pilus biogenesis protein PilP (PilP) (PilP protein)	5652	6101	28	150
+Q6JAZ9	Q6JAZ9	Escherichia coli	IncI1 conjugal transfer protein PilO (PilO) (PilO protein)	6091	7383	25	431
+C7SA78	C7SA78	Escherichia coli	IncI1 conjugal transfer protein PilN (Lipoprotein) (Type IVB pilus formation outer membrane protein, R64 PilN family)	7379	9058	56	560
+Q6JAZ7	Q6JAZ7	Escherichia coli	IncI1 conjugal transfer protein PilM (PilM) (PilM protein)	9075	9509	56	145
+C7SA80	C7SA80	Escherichia coli	Lipoprotein	9512	10576	2	355
+C7SA81	C7SA81	Escherichia coli	PilK	10908	11498	14	197
+E9LMM5	E9LMM5	Escherichia coli	IncI1 conjugal transfer protein TraC	11626	11922	24	99
+Q6JAZ2	Q6JAZ2	Escherichia coli	IncI1 conjugal transfer protein TraC (TraC) (TraC protein)	12052	12732	29	227
+Q6JAZ1	Q6JAZ1	Escherichia coli	TraB	12929	13519	20	197
+E2E9F3	E2E9F3	Escherichia coli	IncI1 conjugal transfer protein TraA (Putative traA) (TraA)	13964	14248	47	95
+H8DH72	Q2VNV1	Escherichia coli SCI-07	Uncharacterized protein	14169	14429	12	87
+D7XWR3	D7XWR3	Escherichia coli MS 84-1	Putative uncharacterized protein	14903	15106	5	68
+I5ZJ49	E1JE00	Escherichia coli EC4448	Uncharacterized protein	15109	15426	2	106
+F2W490	C8TW44	Escherichia coli	Replication initiation protein	15402	16430	14	343
+E9LLT7	E9LLT7	Escherichia coli	Putative replication protein RepA4	16994	17278	3	95
+C7S9Z5	C7S9Z5	Escherichia coli	YafA	17506	18012	4	169
+Q68JD7	Q68JD7	Escherichia coli	ProQ/FINO family protein (YafB)	18071	18670	13	200
+E6AXF5	E6AXF5	Escherichia coli MS 16-3	Conserved domain protein	18628	18849	4	74
+C7S9Z7	C7S9Z7	Escherichia coli	YagA	18933	20366	2	478
+D3QYQ9	D3QYQ9	Escherichia coli O55:H7 (strain CB9615 / EPEC)	Putative uncharacterized protein	20378	20599	2	74
+P03008	P03008	Escherichia coli	Transposase for transposon Tn3	20860	23652	6	931
+E2JB37	A5JTS3	Escherichia coli	Putative uncharacterized protein (Fragment)	23666	23995	10	110
+Q6BBP7	Q6BBP7	Escherichia coli	Beta-lactamase (Beta-lactamase CTX-M-3) (CTX-M-3 beta-lactamase) (CTX-M-3 extended-spectrum beta-lactamase) (Extended-spectrum beta-lactamase CTX-M-3) (Extended-spectrum class A beta-lactamase CTX-M-3)	24048	24920	18	291
+D9Z5B6	D9Z5B6	Escherichia coli	TnpA	25179	26441	67	421
+C7S9E2	C7S9E2	Escherichia coli	Transposase for transposon Tn3 (Truncated TnpA)	26623	26997	18	125
+G4VUL2	B7LWU0	Escherichia coli	Tn3 resolvase	26915	27556	7	214
+C8UQP5	C8UQP5	Escherichia coli O111:H- (strain 11128 / EHEC)	TEM-1 beta-lactamase	27742	28599	2	286
+C1J8J6	C1J8J6	Escherichia coli	Cobyrinic acid a,c-diamide synthase (Putative partition-related protein)	29173	29796	27	208
+H6P2B3	Q8Z1G9	Salmonella enterica subsp. enterica serovar Typhi str. P-stx-12	Uncharacterized protein	30003	31271	5	423
+Q7M1C0	Q6EMF3	Escherichia coli	Protein impA (EC 3.4.21.-) [Cleaved into: Protein impA']	31274	31708	68	145
+C1J8J3	C1J8J3	Escherichia coli	Putative uncharacterized protein	31708	32115	2	136
+D9Z555	D9Z555	Escherichia coli	YccB	32183	33271	14	363
+C1J8T5	C8TW60	Escherichia coli	DNA modification methylase (Putative methylase)	33659	34339	13	227
+O82898	Q0E851	Escherichia coli O157:H7	Uncharacterized protein YubF	34452	35009	90	186
+O82899	C6V3G9	Escherichia coli O157:H7	Uncharacterized protein YubG	35058	35831	82	258
+C7S9L2	C7S9L2	Escherichia coli	Putative uncharacterized protein	36140	36637	2	166
+A7ZH45	A7ZH45	Escherichia coli O139:H28 (strain E24377A / ETEC)	Putative DNA methylase	36606	37139	4	178
+E9LLW4	E9LLW4	Escherichia coli	Putative uncharacterized protein	37230	37978	3	250
+E1JFK5	E1JFK5	Escherichia coli MS 124-1	Putative uncharacterized protein	37896	38099	2	68
+C1J8I1	C1J8I1	Escherichia coli	Single-stranded DNA-binding protein	38099	38623	43	175
+D3H5D8	D3H5D8	Escherichia coli O44:H18 (strain 042 / EAEC)	ParB-like nuclease	38970	40931	2	654
+E0WGX5	E0WGX5	Escherichia coli	Plasmid SOS inhibition protein	40986	41420	10	145
+C1J8T1	C1J8T1	Escherichia coli	Plasmid SOS inhibition protein A, putative (Plasmid SOS inhibition protein PsiA) (PsiA) (PsiA protein)	41420	42136	45	239
+C1J8T0	C1J8T0	Escherichia coli	TilS substrate C-terminal domain protein (YgaA)	42136	42729	32	198
+C7SA25	C7SA25	Escherichia coli	YgbA-ard	42804	43691	5	296
+F5P4Q3	C1J8S7	Shigella flexneri K-227	YdfA	44084	44854	16	257
+F2W458	C1J8H1	Escherichia coli	Uncharacterized protein	44858	45214	13	119
+Q68J75	C1J8S5	Escherichia coli	CcgAII	45319	45780	24	154
+Q68J76	Q68J76	Escherichia coli	Transposase family protein, YhgA-like (YdgA)	45780	46691	5	304
+C1J8G9	C8TW70	Escherichia coli	Uncharacterized protein (YdgA)	46723	46959	17	79
+C1J8S2	C1J8S2	Escherichia coli	Helix-turn-helix domain protein, putative (Putative uncharacterized protein ygeA) (Uncharacterized protein) (YgeA)	46996	47244	64	83
+B6IC38	B6IC38	Escherichia coli (strain SE11)	Putative uncharacterized protein	47306	47819	2	170
+Q68J80	Q68J80	Escherichia coli	YdiA	47821	48669	4	283
+D9Z504	D9Z504	Escherichia coli	YggA	48762	49100	74	113
+C7SA35	C7SA35	Escherichia coli	Plasmid mobilization protein (Plasmid relaxome component protein NikA)	49328	49657	40	110
+E7H9J8	C8TW76	Escherichia coli EPECa14	Relaxase/mobilization nuclease domain protein	49671	52367	3	899
+Q68J84	Q68J84	Escherichia coli	Conjugal transfer protein (TrbC)	52410	54698	4	763
+D9Z502	D9Z502	Escherichia coli	TrbB	54694	55767	14	358
+C7SA39	C7SA39	Escherichia coli	TrbA protein	55783	56988	4	402
+C7SA40	C7SA40	Escherichia coli	FinQ	57346	58272	22	309
+C7SA41	C7SA41	Escherichia coli	Post-segregation killing protein	58610	58891	3	94
+H8DHN2	D8EU26	Escherichia coli SCI-07	Uncharacterized protein	59524	59817	25	98
+I6CE46	B6IC49	Shigella flexneri CCH060	Uncharacterized protein	59888	60127	20	80
+E9LLN8	E9LLN8	Escherichia coli	Surface exclusion protein ExcA	60554	61165	18	204
+B3AEC6	B3AEC6	Escherichia coli O157:H7 str. EC4401	Integral membrane protein	61244	63478	3	745
+C7SA45	C7SA45	Escherichia coli	TraX protein	63509	64090	2	194
+C7SA46	C7SA46	Escherichia coli	TraW protein	64122	65321	2	400
+D9Z526	D9Z526	Escherichia coli	TraV	65291	65914	22	208
+Q68JA2	Q68JA2	Escherichia coli	TraU	65905	68946	13	1014
+C7SA49	C7SA49	Escherichia coli	IncI1 conjugal transfer protein TraT (TraT protein)	69039	69836	47	266
+C7SA50	C7SA50	Escherichia coli	IncI1 conjugal transfer protein TraS (TraS protein)	69823	70008	50	62
+C7SA51	C7SA51	Escherichia coli	TraR (TraR protein)	70075	70476	16	134
+C7SA52	C7SA52	Escherichia coli	IncI1 conjugal transfer protein TraQ (TraQ protein)	70530	71054	69	175
+C7SA53	C7SA53	Escherichia coli	TraP protein	71057	71758	11	234
+C7SA54	C7SA54	Escherichia coli	TraO protein	71761	73047	6	429
+C7SA55	C7SA55	Escherichia coli	TraN protein	73053	74033	9	327
+C7SA56	C7SA56	Escherichia coli	IncI1 conjugal transfer protein TraM (TraM protein)	74047	74736	42	230
+C7SA57	C7SA57	Escherichia coli	IncI1 conjugal transfer protein TraL (TraL) (TraL protein)	74736	75080	72	115
+C7SA58	C7SA58	Escherichia coli	SogL protein	75101	78862	2	1254
+F4MCT9	E9LLQ3	Escherichia coli UMNK88	IncI1 conjugal transfer protein TraK	78955	79863	33	303
+C7SA62	C7SA62	Escherichia coli	TraJ protein	79808	80953	3	382
+Q68JB5	Q68JB5	Escherichia coli	TraI	80953	81768	1	272
+Q68JB6	Q68JB6	Escherichia coli	IncI1 conjugal transfer protein TraH (TraH) (TraH protein)	81768	82223	67	152
+E9LM08	E9LM08	Escherichia coli	IncI1 conjugal transfer protein TraG	82621	83202	57	194
+Q68JB8	Q68JB8	Escherichia coli	TraF	83265	84464	3	400
+Q68JB9	Q68JB9	Escherichia coli	TraE	84553	85374	1	274
+P10487	P10487	Escherichia coli	Shufflon-specific DNA recombinase	85528	86679	26	384
+P09747	P09747	Escherichia coli	Shufflon protein B	86678	86986	1	103
+F8XGS9	D8EU43	Escherichia coli MS 79-10	Shufflon protein B	86994	87302	2	103
+E6BU42	E6BU42	Escherichia coli MS 85-1	Shufflon protein C	87223	87527	4	103
+P09750	P09750	Escherichia coli	Shufflon protein C'	87530	87790	16	87
+P09751	P09751	Escherichia coli	Shufflon protein D'	87790	88134	4	115
+E9Y7H3	E9Y7H3	Escherichia coli H489	Shufflon protein A (Fragment)	88058	88447	1	130
+P09746	P09746	Escherichia coli	Shufflon protein A'	88450	88695	22	82
